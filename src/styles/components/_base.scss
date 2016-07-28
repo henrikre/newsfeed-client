@@ -21,6 +21,10 @@ h1, h2, h3, h4, h5, h6 {
   color: $color-heading;
 }
 
+a {
+  text-decoration: none;
+}
+
 .form-input {
   width: 100%;
   padding: 1em;
