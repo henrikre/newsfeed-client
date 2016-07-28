@@ -1,0 +1,29 @@
+/*------------------------------------------
+*
+* $BASE
+*
+------------------------------------------*/
+
+body {
+  background: $color-background;
+  font-family: 'Lora', serif;
+}
+
+#app {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 1.5em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color: $color-heading;
+}
+
+.form-input {
+  width: 100%;
+  padding: 1em;
+  box-sizing: border-box;
+  outline: none;
+}

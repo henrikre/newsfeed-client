@@ -1,0 +1,26 @@
+/*------------------------------------------
+*
+* $ARTCLE
+*
+------------------------------------------*/
+
+.article {
+  padding: 1.25em 0;
+  border-bottom: 1px solid lighten($color-background, 5%);
+
+  &__timestamp {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.725em;
+    text-transform: uppercase;
+    color: #666666;
+  }
+
+  &__title {
+    font-size: 1em;
+  }
+
+  &__category {
+    font-size: 0.8em;
+    color: #666666;
+  }
+}
